@@ -18,26 +18,27 @@
           </div>
           <div class="col-sm-12 col-md-4" style="margin-top: 20px;">
             <i class="fa-solid fa-user"></i>
-            <form class="borda">
+            <form class="borda" action="php/insert_usuario.php" method="post">
               <h1 id="titulo">CADASTRO</h1>
                 <div class="mb-3">
                   <label for="nome" class="form-label">Nome</label>
-                  <input type="text" required class="form-control" id="nome" aria-describedby="emailHelp">
+                  <input type="text" required class="form-control" id="nome" name="nome" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" required class="form-control" id="email" aria-describedby="emailHelp">
+                  <input type="email" required class="form-control" id="email" name="email" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                   <label for="cargo" class="form-label">Cargo</label>
-                  <input type="text" required class="form-control" id="cargo" aria-describedby="emailHelp">
+                  <input type="text" required class="form-control" id="cargo" name="cargo" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                   <label for="senha" class="form-label">Senha</label>
-                  <input type="password" required class="form-control" id="senha">
+                  <input type="password" required class="form-control" id="senha" name="senha"> 
                 </div>
-                <a class="btn btn-danger" href="index.html" role="button">Voltar</a>
-                <a class="btn btn-info" href="categoria.html" role="button">Próximo</a>
+                <button type="submit">ENVIAR</button>
+                <!-- <a class="btn btn-danger" href="index.html" role="button">Voltar</a>
+                <a class="btn btn-info" href="categoria.html" role="button">Próximo</a> -->
               </form>
           </div>
           <div class="col-sm-12 col-md-4">
