@@ -18,7 +18,7 @@
           </div>
           <div class="col-sm-12 col-md-4" style="margin-top: 20px;">
             <i class="fa-solid fa-user"></i>
-            <form class="borda">
+            <form action="php/lancamento.php" method="post" class="borda">
               <h1 id="titulo">LANÇAMENTO</h1>
                 <div class="mb-3">
                   <label for="lanc" class="form-label">Data de Lançamento</label>
@@ -32,8 +32,9 @@
                   <label for="categoria" class="form-label">Categoria</label>
                   <input type="number" required min="0" max="1" class="form-control" id="categoria">
                 </div>
-                <a class="btn btn-danger" href="categoria.html" role="button">Voltar</a>
-                <a class="btn btn-info" href="index.html" role="button">Finalizar</a>
+                <a class="btn btn-danger" href="tela_inicial.html" role="button">Voltar</a>
+                <button type="submit" class="btn btn-info">Finalizar</button>
+                <!-- <a class="btn btn-info" href="index.html" role="button">Finalizar</a> -->
               </form>
           </div>
           <div class="col-sm-12 col-md-4">
